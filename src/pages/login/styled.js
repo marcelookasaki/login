@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const Title = styled.h1`
   color: ${props => (props.isRed ? 'red' : 'blue')};
-  background-color: lightcyan;
+  background-color: lightskyblue;
   small{
     font-size: 12pt;
     margin-left: 15px;
