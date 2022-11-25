@@ -6,11 +6,11 @@ import * as Actions from './actions'
 
 
 const requisicao = () =>
-  new Promise((resolve, reject) => {
+  new Promise(resolve => {
     setTimeout(() => {
-      //resolve()
-      reject()
-    }, 2000)
+      resolve()
+      //reject()
+    }, 600)
   })
 
 function* exampleRequest() {
